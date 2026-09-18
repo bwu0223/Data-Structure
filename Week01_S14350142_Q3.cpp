@@ -1,4 +1,4 @@
-//¸ê¤u2A / S14350142 / §dªÃ©Ó 
+//è³‡å·¥2A / S14350142 / å³ç§‰æ‰¿ 
 #include <iostream>
 using namespace std;
 
@@ -21,7 +21,7 @@ int main() {
             cnt++;
         }
     }
-    cout << a << " ¨ì " << b << " ¤§¶¡¦@­p¦³ " << cnt << " ­Ó½è¼Æ " << endl;
+    cout << "There are " << cnt << " prime numbers between " << a << " and " << b << "."<< endl;
     return 0;
 }
 
