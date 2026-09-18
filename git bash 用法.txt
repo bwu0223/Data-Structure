@@ -1,0 +1,25 @@
+剛創資料夾 >> opengit git bash here
+
+
+建立資料 >> 
+
+	git config --global user.name "你的GitHub帳號名"
+	git config --global user.email "你註冊GitHub用的信箱@example.com"
+
+初始化資料夾 >> git init
+
+建立雲端連線 >> git remote add origin "github 的 URL"
+
+確保分支名稱為 main >> git branch -M main
+
+先上傳到 git 的暫存區 >> git add "資料名"
+
+上傳資料 >> git commit -m "解釋"
+
+推送到雲端(第一次) >> git push -u origin main
+
+推送到雲端(之後) >> git push 
+
+刪除 github 資料 >> 先在本地 rm 再 git commit -m "解釋" 最後 git push
+
+本地刪除檔案但 github 雲端沒刪除 >> git -u 再 git commit -m "解釋" 最後 git push
