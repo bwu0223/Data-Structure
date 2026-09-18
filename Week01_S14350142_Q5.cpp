@@ -1,4 +1,4 @@
-//¸ê¤u2A / S14350142 / §dªÃ©Ó 
+//è³‡å·¥2A / S14350142 / å³ç§‰æ‰¿ 
 #include <iostream>
 using namespace std;
 
@@ -6,7 +6,7 @@ int Gcd(int a,int b){
 	while((a %= b) && (b %= a));
 	return a + b;
 }
-9
+
 int Lcm(int a, int b) {
     int step = b;
 
@@ -24,7 +24,7 @@ int main(){
 	int mygcd = Gcd(a,b);
 	int mylcm = Lcm(a,b);
 	
-	cout << a << " »P " << b << " ªº³Ì¤j¤½¦]¼Æ = " << mygcd << endl;
-	cout << a << " »P " << b << " ªº³Ì¤p¤½­¿¼Æ = " << mylcm << endl;
+	cout << "The greatest common divisor of " << a << " and "<< b << " = " << mygcd << endl;
+	cout << "The least common multiple of " << a << " and "<< b << " = " << mylcm << endl;
 	return 0;
 } 
